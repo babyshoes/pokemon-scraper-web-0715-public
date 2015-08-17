@@ -16,7 +16,4 @@ class SQLRunner
     sql = File.read('db/create_hp.sql')
     execute_sql(sql)
   end
-
-  def alter_hp
-  end
 end
